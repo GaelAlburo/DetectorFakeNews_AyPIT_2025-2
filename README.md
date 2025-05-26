@@ -18,13 +18,28 @@ El código principal se encuentra en el Jupyter Notebook `proyectoFinal.ipynb` y
 
 ## Estructura del Proyecto
 
-.
-├── data/ # Directorio con datasets en formato CSV
-│ ├── dataset1.csv # Datos de entrenamiento/prueba
-│ └── ...
-├── proyectoFinal.ipynb # Notebook principal con el análisis
-├── README.md # Este archivo
-└── requirements.txt # Dependencias del proyecto
+```
+proyecto-final-nlp/
+│
+├── data/                     # Directorio de datasets
+│   ├── entrenamiento.csv     # Datos de entrenamiento
+│   ├── prueba.csv            # Datos de prueba
+│   └── procesados/           # (Opcional) Datos preprocesados
+│
+├── notebooks/
+│   └── proyectoFinal.ipynb   # Jupyter Notebook principal
+│
+├── models/                   # (Opcional) Modelos guardados
+│   ├── random_forest.pkl
+│   └── saber_model/
+│
+├── utils/                    # (Opcional) Código auxiliar
+│   └── preprocessing.py
+│
+├── README.md                 # Documentación
+├── requirements.txt          # Dependencias
+└── .gitignore                # Archivos ignorados por Git
+```
 
 ## Requisitos
 
