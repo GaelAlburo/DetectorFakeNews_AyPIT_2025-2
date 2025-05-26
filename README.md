@@ -22,19 +22,12 @@ El código principal se encuentra en el Jupyter Notebook `proyectoFinal.ipynb` y
 proyecto-final-nlp/
 │
 ├── data/                     # Directorio de datasets
-│   ├── entrenamiento.csv     # Datos de entrenamiento
-│   ├── prueba.csv            # Datos de prueba
-│   └── procesados/           # (Opcional) Datos preprocesados
+│   ├── onlyfakes1000.csv     # Únicamente noticias falsas
+│   ├── onlytrue1000.csv      # Únicamente noticias verdaderas
+│   └── test.cvs              # Noticias de prueba sin clasificar
 │
-├── notebooks/
-│   └── proyectoFinal.ipynb   # Jupyter Notebook principal
+│── proyectoFinal.ipynb       # Jupyter Notebook principal
 │
-├── models/                   # (Opcional) Modelos guardados
-│   ├── random_forest.pkl
-│   └── saber_model/
-│
-├── utils/                    # (Opcional) Código auxiliar
-│   └── preprocessing.py
 │
 ├── README.md                 # Documentación
 ├── requirements.txt          # Dependencias
