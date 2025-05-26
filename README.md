@@ -67,10 +67,8 @@ jupyter notebook proyectoFinal.ipynb
 
 ## Autores
 
-* González Sotelo Elias Eduardo - 318023179
-* González Villalba Bryan Jesús - 421530869
-
-* Guzmán Alburo Rodrigo Gael - 318261896
-* Ríos Nava Luis Eduardo - 421530924
-
-* Rodríguez Ortiz Alexis Isaías - 318145994
+* González Sotelo Elias Eduardo
+* González Villalba Bryan Jesús
+* Guzmán Alburo Rodrigo Gael
+* Ríos Nava Luis Eduardo
+* Rodríguez Ortiz Alexis Isaías
